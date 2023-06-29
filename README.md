@@ -1,4 +1,4 @@
-# Feature-engineering-based-on-SVM-and-KNN-
+# Feature-engineering-based-on-SVM-and-KNN
 
 1.1 background and data In this case we focus on preprocessed brain EEG data sets. The data set here is from SCI patients recorded while resting with eyes closed (EC) and eyes opened (EO). So in this case, the data set mentions about 48 electrodes recording electrical activity of the brain 250HZ, and which has two possibility classes where subjects will/will not develop neuropathic pain within 6 months. So there were totally 18 subjects, in which 10 developed pain and 8 didn’t develop pain. The data is already undergone some preprocessing like signal denoising and normalization, temporal segmentation, frequency band power estimation, normalization with respect to total band power and features include normalized alpha, theta band power while eyes are closed, eyes opened, and taking the ratio of eo/ec. 
 
